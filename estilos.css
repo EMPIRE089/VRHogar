@@ -20,7 +20,7 @@ a:hover:not(span > a) {
 }
 .iconop{
     width: 70px;
-    position:absolute;
+    position:relative;
     
     
 }
@@ -33,10 +33,10 @@ a:hover:not(span > a) {
     
 }
 .navegador{
-    width: 130%;    
+    width: 130%; 
+    margin-left: -30%;
 }
 .enla{
-    margin-left: 50px;
     margin-top: 0px;
     width: 260px;
 }
@@ -386,20 +386,23 @@ footer{
         font-size: 86%;
     }
     .navegador{
-        
-        
+        width: 230px; 
+        margin-left: 20%;
+        position: relative;
+    }
+    .enla{
+        margin-left: 20%;
+        margin-top: 0px;
+        width: 220px;
+        position: relative;
     }
     .grupo-aviso{
         width: auto;
         height: auto;
         margin-left: 2%;
-        margin-right: 2%;}
-    
-    .enla{
-        margin-left: 0%;
-    
+        margin-right: 2%;
     }
-    
+        
     .contenedor__cab{
     display: grid;
     grid-template-columns: 0fr 0.7fr 1fr;
