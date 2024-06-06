@@ -376,7 +376,7 @@ footer{
     background-attachment: scroll;
       grid-column:1 1 ;
         
-    width: 100%;
+    width: auto;
         
     }
     .icomot{font-size: 12px;}
