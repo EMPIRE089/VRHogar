@@ -4,7 +4,7 @@ const inputs = document.querySelectorAll('#formulario input');
 const expresiones = {
 nombre:/^[a-zA-ZÁ-ÿ\s]{1,40}$/,//Letras y espacios,pueden llevar acentos.
 mail: /[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+\.[a-zA-z0-9-.]+$/,
-contraseña:/^.{4,12}$/ //4 a 12 digitos
+contraseña:/^.{8,12}$/ //8 a 12 digitos
 }
 
 const campos = {
