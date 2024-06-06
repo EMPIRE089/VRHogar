@@ -367,6 +367,7 @@ footer{
 @media screen and (max-width: 768px) {
     html{min-width: auto;
         Width: auto;
+         Margin: auto;
         }
     
     .contenedor__cab,
